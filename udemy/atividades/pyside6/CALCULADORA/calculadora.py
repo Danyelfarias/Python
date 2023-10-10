@@ -36,10 +36,15 @@ display = Display()
 window.addWidgetToVLayout(display)#essa é uma funçao que foi feita no main que automaticamnte adiciona os item no layout
 
 #convocando estilio gride de layout 
-bttgrid = ButtonsGrid()
-window.layout=bttgrid
-bttgrid.addWidget(Button(),1,1)
-# btt = Button()
+# bttgrid = ButtonsGrid()
+# window.layout=bttgrid
+# bttgrid.addWidget(Button)
+btt = Button()
+window.addWidgetToVLayout(btt)
+btt = Button()
+window.addWidgetToVLayout(btt)
+btt = Button()
+window.addWidgetToVLayout(btt)
 # window.gridLayout(btt)
 
 window.adjustFixedSize()

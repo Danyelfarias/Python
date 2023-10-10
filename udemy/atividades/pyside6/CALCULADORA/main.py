@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
         self.centra_widget.setLayout(self.layout)#definindo o tipo de layout do widget
 
         self.setCentralWidget(self.centra_widget)# no centro do corpo vai ter widgets
-        self.setWindowTitle("calculadora")
+        self.setWindowTitle("calculadora")#colo nome da janela , quado aparecer 
     def adjustFixedSize(self):
         # Última coisa a ser feita
         self.adjustSize()
